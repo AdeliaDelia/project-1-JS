@@ -51,3 +51,19 @@ function detectPersonalLevel() {
 }
 detectPersonalLevel();
 
+// функция проверяет сво-во private и при значении false 
+// выводит главный объект программы
+function showMyDB (hidden) {
+    while (!hidden) {
+        console.log(personalMovieDB);
+    }
+}
+showMyDB(personalMovieDB.private);
+
+
+// функция записывает в массив данных genres ответы пользователя
+function writeYourGenres () {
+
+}
+writeYourGenres();
+
